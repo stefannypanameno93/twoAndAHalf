@@ -62,7 +62,7 @@ html, body {
   background:#43465B;
   border-left: 1px solid #FFF;
 
-  animation: maquina 5s infinite alternate steps(23);
+  animation: maquina 5s infinite alternate steps(24);
 }
 
 .animated {
@@ -109,3 +109,34 @@ html, body {
 }
 
 /*# sourceMappingURL=style-not-found.css.map */
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .container__title {
+    font-size: 5em;
+    text-align: center;
+  }
+
+  .container__subtitle {
+    font-size: 1.75em;
+    padding: 50px 5px 0px;
+  }
+
+  /* .footer {
+    padding-top: 50px;
+  } */
+
+  .footer a {
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+}  
