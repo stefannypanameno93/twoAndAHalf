@@ -185,10 +185,10 @@ html, body {
     flex-direction: column;
     align-items: center;
     margin-top: -50px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     position: absolute;
     border: outset 5px #ffffff;
-    width: 93%;
+    width: 97%;
   }
 
   .footer p {
