@@ -62,7 +62,7 @@ html, body {
   background:#43465B;
   border-left: 1px solid #FFF;
 
-  animation: maquina 5s infinite alternate steps(24);
+  animation: maquina 5s infinite alternate steps(26);
 }
 
 .animated {
@@ -84,7 +84,7 @@ html, body {
 }
 .pulse {
   animation-name: pulse;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 
 .footer {
