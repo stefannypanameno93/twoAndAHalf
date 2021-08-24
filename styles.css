@@ -128,7 +128,7 @@ html, body {
 
 @media only screen and (max-width: 600px) {
   /* body {
-    height: 100%;
+    height: 70%;
   } */
 
   .header{
@@ -181,10 +181,14 @@ html, body {
   } */
 
   .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: -50px;
+    margin-bottom: 30px;
     position: absolute;
     border: outset 5px #ffffff;
-    width: 97%;
+    width: 93%;
   }
 
   .footer p {
@@ -195,5 +199,13 @@ html, body {
     padding: 0px;
     width: 100%;
     text-align: center;
+  }
+
+  .topText {
+    margin-top: 10px;
+  }
+
+  .bottomText {
+    margin-top: -15px;
   }
 }  
